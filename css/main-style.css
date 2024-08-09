@@ -271,7 +271,7 @@ header .offcanvas-header .btn-close {
 /* slider start */
 
 .slider .carousel {
-  height: 500px;
+  height: 100%;
    overflow: hidden;
 }
 
@@ -617,12 +617,7 @@ color: #9497A1;
 }
   }
   .ticker-wrap {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     overflow: hidden;
-    height: 4rem;
-    background-color:#0E6D3F;
     padding-left: 100%;
     box-sizing: content-box;
   }
