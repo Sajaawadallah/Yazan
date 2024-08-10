@@ -97,7 +97,7 @@ header .top-header {
 header .top-header .contact-num p  {
   font-size: 13px;
 }
-.top-header .contact-us .contact-socil-icon .round-circle {
+.top-header .contact-socil-icon .round-circle {
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -115,34 +115,82 @@ header .top-header .contact-num p  {
   -o-transition: all 0.5s;
 }
 
-.top-header .contact-us .contact-socil-icon .facebook-circle {
-  background-color: #5488b8;
-}
-.top-header .contact-us .contact-socil-icon .google-circle {
-  background-color: #e83f3a;
-}
-.top-header .contact-us .contact-socil-icon .twitter-circle {
+
+.top-header  .contact-socil-icon .twitter-circle {
   background-color: #37b1e1;
 }
-.top-header .contact-us .contact-socil-icon .linkedin-circle {
+.top-header  .contact-socil-icon .linkedin-circle {
   background-color: #0678b6;
 }
-.top-header .contact-us .contact-socil-icon .round-circle:hover {
+.top-header  .contact-socil-icon .round-circle:hover {
   transform: rotate(50deg);
   -webkit-transform: rotate(50deg);
   -moz-transform: rotate(50deg);
   -ms-transform: rotate(50deg);
   -o-transform: rotate(50deg);
 }
-.top-header .contact-us .contact-socil-icon .round-circle i  {
+.top-header  .contact-socil-icon .round-circle i  {
   color: white;
   font-size: 13px;
 }
-.top-header .contact-us .contact-socil-icon .round-circle svg  {
+.top-header  .contact-socil-icon .round-circle svg  {
   fill: white;
   width: 15px;
 }
 
+.top-header .slidebtn {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.top-header .slidebtn i {
+  color: #0E6D3F;
+}
+
+.top-header .slidebtn:hover {
+  background-color: #0E6D3F;
+  border-color: #0E6D3F ;
+}
+.top-header .slidebtn:hover i {
+  color: white;
+}
+
+ .swiper-wrapper  {
+  color: white !important;
+
+}
+
+ .top-header .news-date h6 {
+  color: white;
+}
+
+.top-header .argent-box {
+  width: 70px;
+  height: 50px;
+  background-color: #0E6D3F;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-header .argent-box i {
+  color: white;
+}
 
 header .navbar-nav .nav-item .nav-link {
   color: #0F172A;
@@ -623,8 +671,6 @@ color: #9497A1;
   }
   .ticker-wrap .ticker {
     display: inline-block;
-    height: 4rem;
-    line-height: 4rem;
     white-space: nowrap;
     padding-right: 100%;
     box-sizing: content-box;
@@ -639,8 +685,6 @@ color: #9497A1;
   }
   .ticker-wrap .ticker__item {
     display: inline-block;
-    padding: 0 2rem;
-    font-size: 2rem;
     color: white;
   }
   
