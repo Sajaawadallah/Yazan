@@ -40,14 +40,6 @@ a {
 
 }
 
-.lines2:hover {
-  display: block;
-  transition: all 0.5s;
-  -webkit-transition: all 0.5s;
-  -moz-transition: all 0.5s;
-  -ms-transition: all 0.5s;
-  -o-transition: all 0.5s;
-}
 
 .lines6 {
   overflow: hidden;
@@ -324,7 +316,7 @@ header .offcanvas-header .btn-close {
 }
 
 .slider .carousel .carousel-caption {
-  bottom: 40%;
+  bottom: 15%;
   left: 0px !important;
   text-align: start;
   z-index: 2;
@@ -476,6 +468,33 @@ color: #9497A1;
 
 }
 
+.cards .card .card-body span {
+  color: white;
+  font-size: 12px;
+  background-color: #0E6D3F;
+  border: 1px solid #0E6D3F;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+}
+
+.cards .tags span {
+  color: white;
+  font-size: 12px;
+  background-color: #0E6D3F;
+  border: 1px solid #0E6D3F;
+  padding: 5px 8px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-weight: bold;
+}
 
   /* end cards */
 
@@ -708,7 +727,8 @@ opacity: 87%;
 
 }
 
-footer .mail-list .btn-secondary {
+footer .mail-list .btn-secondary 
+,.news-form .mail-list  .btn-secondary {
   background-color: #0E6D3F !important;
   border-color: #0E6D3F !important;
   font-size: 14px;
@@ -720,7 +740,8 @@ footer .mail-list .btn-secondary {
   -o-border-radius: 8px 0 0 8px !important;
 }
 
-footer .mail-list .btn-secondary:hover {
+footer .mail-list .btn-secondary:hover , 
+.news-form .mail-list .btn-secondary:hover {
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -730,7 +751,8 @@ footer .mail-list .btn-secondary:hover {
   border-color: #135d39 !important;
 }
 
-footer .mail-list .form-control {
+footer .mail-list .form-control
+, .news-form .mail-list .form-control  {
   border-radius: 0 8px 8px 0 !important;
   -webkit-border-radius: 0 8px 8px 0 !important;
   -moz-border-radius: 0 8px 8px 0 !important;
@@ -740,13 +762,16 @@ footer .mail-list .form-control {
   padding-bottom: 0.8rem;
 }
 
-footer .mail-list input {
+footer .mail-list input 
+,.news-form .mail-list  input {
   box-shadow: none !important ;
 }
-footer .mail-list input:focus{
+footer .mail-list input:focus 
+,.news-form .mail-list  input:focus{
   border: none !important ;
 }
-footer .mail-list input::placeholder {
+footer .mail-list input::placeholder
+ ,.news-form .mail-list  input::placeholder {
   color: #4a5568 !important;
   font-weight: 100;
 }
