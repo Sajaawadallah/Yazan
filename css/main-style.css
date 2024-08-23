@@ -172,7 +172,7 @@ header .top-header .contact-num p  {
 }
 
 .top-header .argent-box {
-  width: 70px;
+  width: 160px;
   height: 50px;
   background-color: #0E6D3F;
   color: white;
@@ -348,6 +348,46 @@ header .offcanvas-header .btn-close {
   
 }
 
+.writers-box  {
+  height: 550px;
+  overflow: auto;
+}
+
+.w-box-flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.w-box-flex a {
+  color: #0F172A;
+  font-weight: bold;
+  font-size: 13px !important;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.w-box-flex a:hover{
+  color: #0E6D3F;
+}
+
+ .w-box-flex .w-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px ;
+  -webkit-border-radius: 10px ;
+  -moz-border-radius: 10px ;
+  -ms-border-radius: 10px ;
+  -o-border-radius: 10px ;
+}
+
+
 
 /* slider end */
 
@@ -388,7 +428,12 @@ header .offcanvas-header .btn-close {
    }
 
    
-
+   .cards .card {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 5px;
+   }
 
 
 .cards .card .card-img {
@@ -426,7 +471,7 @@ transform: scale(1.2);
 -moz-transform: scale(1.2);
 -ms-transform: scale(1.2);
 -o-transform: scale(1.2);
-}
+} 
 
 
 .cards .card .card-body {
