@@ -315,6 +315,12 @@ header .offcanvas-header .btn-close {
    overflow: hidden;
 }
 
+.slider .carousel .carousel-item {
+  height: 550px;
+}
+.slider .carousel .carousel-item img {
+  height: 100% !important;
+}
 .slider .carousel .carousel-caption {
   bottom: 15%;
   left: 0px !important;
@@ -347,6 +353,8 @@ header .offcanvas-header .btn-close {
   opacity: 50%;
   
 }
+
+
 
 .writers-box  {
   height: 550px;
@@ -532,7 +540,7 @@ color: #9497A1;
   font-size: 12px;
   background-color: #0E6D3F;
   border: 1px solid #0E6D3F;
-  padding: 5px 8px;
+  padding: 10px 16px;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
